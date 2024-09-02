@@ -3,70 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Tools Website</title>
+    <title>AI Tools Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">AI Tools</div>
+            <div class="logo">AI Tools Hub</div>
+            <input type="text" placeholder="Search..." class="search-bar">
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#articles">Articles</a></li>
+                <li><a href="articles.html">Articles</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <input type="text" placeholder="Search..." class="search-bar">
         </nav>
     </header>
 
     <main>
         <section id="home">
-            <h1>Welcome to AI Tools</h1>
+            <h1>Welcome to AI Tools Hub</h1>
+            <p>Discover the latest AI technologies and tools.</p>
         </section>
 
         <section id="about">
-            <h2>About</h2>
-            <p id="about-text" class="collapse">Recent AI tools and websites have revolutionized industries by enhancing productivity, accuracy, and innovation. From AI-driven analytics platforms to intelligent automation tools, these technologies are shaping the future. <span id="more-text">Explore the latest advancements in AI, including machine learning frameworks, natural language processing applications, and computer vision solutions. Stay ahead with cutting-edge tools that transform data into actionable insights.</span></p>
-            <button id="see-more">See More</button>
+            <h2>About AI Tools</h2>
+            <p class="collapsible-content">AI tools have revolutionized various industries, enhancing productivity and innovation. From natural language processing to computer vision, these technologies are reshaping our world. <span class="more-content">Recent advancements include GPT-3 for text generation, DALL-E for image creation, and AlphaFold for protein structure prediction. These tools are making AI more accessible and powerful than ever before.</span></p>
+            <button class="see-more-btn">See More</button>
         </section>
 
         <section id="gallery">
-            <h2>Gallery</h2>
+            <h2>AI Tools Gallery</h2>
             <div class="scroll-container">
-                <img src="image1.jpg" alt="AI Tool 1">
-                <img src="image2.jpg" alt="AI Tool 2">
+                <img src="https://source.unsplash.com/random/800x600?ai" alt="AI Tool 1">
+                <img src="https://source.unsplash.com/random/800x600?technology" alt="AI Tool 2">
+                <img src="https://source.unsplash.com/random/800x600?robot" alt="AI Tool 3">
                 <video controls>
-                    <source src="video.mp4" type="video/mp4">
+                    <source src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-            </div>
-        </section>
-
-        <section id="articles">
-            <h2>Articles</h2>
-            <div class="article-list">
-                <div class="article">
-                    <h3>Article 1</h3>
-                    <p>This article explores the latest AI trends and tools available in the market, providing insights into their applications and benefits.</p>
-                </div>
-                <!-- Additional articles can be added here -->
             </div>
         </section>
 
         <section id="contact">
             <h2>Contact Us</h2>
             <form>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" placeholder="Your email" required>
                 <button type="submit">Submit</button>
             </form>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 AI Tools. All rights reserved.</p>
+        <p>&copy; 2024 AI Tools Hub. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
