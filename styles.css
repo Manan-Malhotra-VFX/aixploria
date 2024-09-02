@@ -1,13 +1,13 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Keeping the font as Poppins */
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f0f7f4;
+    color: #444444; /* Softer black for better readability */
+    background-color: #ffffff; /* Clean white background */
 }
 
 header {
-    background-color: #4caf50;
+    background-color: #1a1a1a; /* Darker grey for a more sophisticated header */
     padding: 10px 0;
     color: white;
 }
@@ -52,23 +52,8 @@ section {
     margin-bottom: 40px;
 }
 
-#about .collapse #more-text {
-    display: none;
-}
-
-.scroll-container {
-    display: flex;
-    overflow-x: scroll;
-    gap: 10px;
-}
-
-.scroll-container img, .scroll-container video {
-    max-width: 300px;
-    border-radius: 10px;
-}
-
 footer {
-    background-color: #4caf50;
+    background-color: #333333; /* Darker footer for contrast */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -89,7 +74,7 @@ form input, form button {
 }
 
 form button {
-    background-color: #4caf50;
+    background-color: #e63946; /* Vibrant red for buttons */
     color: white;
     border: none;
     cursor: pointer;
