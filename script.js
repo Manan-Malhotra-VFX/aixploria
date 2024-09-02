@@ -1,10 +1,14 @@
-document.getElementById('see-more').addEventListener('click', function() {
-    const moreText = document.getElementById('more-text');
-    if (moreText.style.display === 'none' || moreText.style.display === '') {
-        moreText.style.display = 'inline';
-        this.textContent = 'See Less';
-    } else {
-        moreText.style.display = 'none';
-        this.textContent = 'See More';
-    }
+document.addEventListener('DOMContentLoaded', function() {
+    const seeMoreBtn = document.querySelector('.see-more-btn');
+    const moreContent = document.querySelector('.more-content');
+
+    seeMoreBtn.addEventListener('click', function() {
+        if (moreContent.style.display === 'none' || moreContent.style.display === '') {
+            moreContent.style.display = 'inline';
+            seeMoreBtn.textContent = 'See Less';
+        } else {
+            moreContent.style.display = 'none';
+            seeMoreBtn.textContent = 'See More';
+        }
+    });
 });
